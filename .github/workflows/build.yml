@@ -1,0 +1,158 @@
+name: Build seamark cells
+
+on:
+  schedule:
+    # Sunday morning UTC, once Geofabrik's nightly extracts are finished.
+    - cron: "17 6 * * 0"
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish the result to Cloudflare Pages and the data branch
+        type: boolean
+        default: false
+      accept_baseline:
+        description: Publish without, or against, the previous publication (first run, or a reviewed drop)
+        type: boolean
+        default: false
+      compare:
+        description: Compare the result with Overpass in the five test boxes (five queries)
+        type: boolean
+        default: false
+      regions:
+        description: Comma-separated region ids for a quick trial (for example malta,andorra); never publishable
+        type: string
+        default: ""
+
+permissions:
+  contents: write  # the data branch
+  actions: write   # keeping the schedule alive
+
+concurrency:
+  group: build-seamark-cells
+  cancel-in-progress: false
+
+env:
+  PUBLISH: ${{ github.event_name == 'schedule' || inputs.publish }}
+  CF_PROJECT: etmar-seezeichen
+  WRANGLER_VERSION: "4.158.0"
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq osmium-tool
+          osmium --version | head -1
+          pip install -r requirements.txt
+
+      # Runs against the real osmium-tool, before any traffic to Geofabrik.
+      - name: Self-test
+        run: python -m unittest discover -s tests -t .
+
+      - name: Fetch the previous publication
+        run: |
+          mkdir -p previous
+          if git fetch --quiet --depth=1 origin data; then
+            git show FETCH_HEAD:v1/index.json > previous/index.json
+            git show FETCH_HEAD:v1/report.json > previous/report.json
+          else
+            echo "No data branch yet."
+          fi
+
+      - name: Build
+        env:
+          ACCEPT_BASELINE: ${{ inputs.accept_baseline }}
+          REGIONS: ${{ inputs.regions }}
+        run: |
+          args=(--out out --workdir "$RUNNER_TEMP/work" --previous previous)
+          if [ "$ACCEPT_BASELINE" = "true" ]; then
+            args+=(--accept-baseline)
+          elif [ "$PUBLISH" = "true" ]; then
+            args+=(--require-baseline)
+          fi
+          if [ -n "$REGIONS" ]; then
+            args+=(--only "$REGIONS")
+          fi
+          python build.py "${args[@]}"
+
+      - name: Compare with Overpass
+        if: inputs.compare
+        run: python compare.py --cells out/site/v1 --cache-dir out/compare --json-out out/compare/report.json
+
+      - name: Package the result
+        if: always()
+        run: |
+          mkdir -p out
+          for name in site site.rejected; do
+            if [ -d "out/$name" ]; then tar -czf out/result.tar.gz -C out "$name"; fi
+          done
+
+      - name: Keep runtime, size and result as an artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: seamark-build
+          retention-days: 14
+          if-no-files-found: warn
+          path: |
+            out/report.json
+            out/result.tar.gz
+            out/compare/
+
+      # A Pages deployment switches over in one step, so an aborted run leaves
+      # the previous data in place.
+      - name: Deploy to Cloudflare Pages
+        if: env.PUBLISH == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          python -m seamarks.site out/site
+          wrangler() { npx --yes "wrangler@${WRANGLER_VERSION}" "$@"; }
+          status=$(curl -sS -o /dev/null -w '%{http_code}' \
+            -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
+            "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/pages/projects/${CF_PROJECT}")
+          case "$status" in
+            200) echo "Project exists." ;;
+            404) wrangler pages project create "$CF_PROJECT" --production-branch main ;;
+            *) echo "::error::Cloudflare answered $status when asked for the project"; exit 1 ;;
+          esac
+          wrangler pages deploy out/site --project-name "$CF_PROJECT" --branch main \
+            --commit-hash "$GITHUB_SHA" --commit-message "Weekly seamark data" --commit-dirty=true
+
+      # One commit, force-pushed: the branch never accumulates history.
+      - name: Replace the data branch (GitHub Pages)
+        if: env.PUBLISH == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python -m seamarks.site out/site
+          stamp=$(python -c "import json; print(json.load(open('out/site/v1/index.json'))['timestamp_osm_base'])")
+          git -C out/site init --quiet --initial-branch=data
+          git -C out/site add --all
+          git -C out/site -c user.name="github-actions[bot]" \
+            -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit --quiet -m "Seamark data as of ${stamp}"
+          git -C out/site push --quiet --force \
+            "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" data
+
+      # GitHub disables scheduled workflows after 60 days without repository
+      # activity. Re-enabling from inside the run resets that, also on red runs.
+      - name: Keep the schedule alive
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method PUT "repos/${GITHUB_REPOSITORY}/actions/workflows/build.yml/enable"

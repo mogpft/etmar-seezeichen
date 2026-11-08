@@ -1,0 +1,15 @@
+Seamark and harbour data in this directory
+
+© OpenStreetMap contributors
+
+This data is a derivative database of OpenStreetMap. It is made available under
+the Open Data Commons Open Database License (ODbL) 1.0:
+
+    https://opendatacommons.org/licenses/odbl/1-0/
+
+The attribution and share-alike terms of that licence apply to any public use of
+this data or of a database derived from it. See also
+https://www.openstreetmap.org/copyright
+
+How the data was derived is public: the extraction code is published at
+https://github.com/mogpft/etmar-seezeichen
