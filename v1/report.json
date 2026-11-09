@@ -1,0 +1,4222 @@
+{
+ "built_at": "2026-11-09T02:40:28Z",
+ "partial": false,
+ "failure": null,
+ "regions": [
+  {
+   "id": "act",
+   "bytes": 19388033,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.6,
+   "matched": 31
+  },
+  {
+   "id": "afghanistan",
+   "bytes": 112619373,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.2,
+   "matched": 3
+  },
+  {
+   "id": "albania",
+   "bytes": 54473682,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.6,
+   "matched": 51
+  },
+  {
+   "id": "alberta",
+   "bytes": 352207737,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 8.5,
+   "matched": 23
+  },
+  {
+   "id": "algeria",
+   "bytes": 301583469,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 7.4,
+   "matched": 165
+  },
+  {
+   "id": "alps",
+   "bytes": 2336480895,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 58.8,
+   "matched": 3673
+  },
+  {
+   "id": "alsace",
+   "bytes": 131853566,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.6,
+   "matched": 177
+  },
+  {
+   "id": "american-oceania",
+   "bytes": 5389241,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.2,
+   "matched": 40
+  },
+  {
+   "id": "andalucia",
+   "bytes": 196338292,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.5,
+   "matched": 357
+  },
+  {
+   "id": "andorra",
+   "bytes": 3507260,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.1,
+   "matched": 0
+  },
+  {
+   "id": "angola",
+   "bytes": 85477853,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.5,
+   "matched": 25
+  },
+  {
+   "id": "anhui",
+   "bytes": 43812706,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.2,
+   "matched": 33
+  },
+  {
+   "id": "antarctica",
+   "bytes": 33096051,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.8,
+   "matched": 79
+  },
+  {
+   "id": "aquitaine",
+   "bytes": 296863374,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 7.8,
+   "matched": 961
+  },
+  {
+   "id": "aragon",
+   "bytes": 95386476,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.5,
+   "matched": 8
+  },
+  {
+   "id": "argentina",
+   "bytes": 435349456,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 12.1,
+   "matched": 1558
+  },
+  {
+   "id": "armenia",
+   "bytes": 53531773,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.5,
+   "matched": 1
+  },
+  {
+   "id": "arnsberg-regbez",
+   "bytes": 195190817,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.2,
+   "matched": 72
+  },
+  {
+   "id": "ashmore-cartier",
+   "bytes": 22624,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.0,
+   "matched": 0
+  },
+  {
+   "id": "asturias",
+   "bytes": 36721555,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.0,
+   "matched": 111
+  },
+  {
+   "id": "austria",
+   "bytes": 814948609,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 21.0,
+   "matched": 950
+  },
+  {
+   "id": "auvergne",
+   "bytes": 156787916,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.0,
+   "matched": 21
+  },
+  {
+   "id": "azerbaijan",
+   "bytes": 46800965,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.2,
+   "matched": 9
+  },
+  {
+   "id": "azores",
+   "bytes": 17964178,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.7,
+   "matched": 161
+  },
+  {
+   "id": "bahamas",
+   "bytes": 14324876,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.6,
+   "matched": 162
+  },
+  {
+   "id": "bangladesh",
+   "bytes": 356027798,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 11.2,
+   "matched": 29
+  },
+  {
+   "id": "basse-normandie",
+   "bytes": 144487651,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.0,
+   "matched": 498
+  },
+  {
+   "id": "bedfordshire",
+   "bytes": 15167862,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.5,
+   "matched": 4
+  },
+  {
+   "id": "beijing",
+   "bytes": 37011501,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.0,
+   "matched": 25
+  },
+  {
+   "id": "belarus",
+   "bytes": 351761931,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 9.4,
+   "matched": 92
+  },
+  {
+   "id": "belgium",
+   "bytes": 698978516,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 19.2,
+   "matched": 840
+  },
+  {
+   "id": "belize",
+   "bytes": 18288428,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.6,
+   "matched": 16
+  },
+  {
+   "id": "benin",
+   "bytes": 48285095,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.5,
+   "matched": 14
+  },
+  {
+   "id": "berkshire",
+   "bytes": 22653583,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.8,
+   "matched": 33
+  },
+  {
+   "id": "berlin",
+   "bytes": 100068150,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.0,
+   "matched": 1198
+  },
+  {
+   "id": "bermuda",
+   "bytes": 2048462,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.1,
+   "matched": 54
+  },
+  {
+   "id": "bhutan",
+   "bytes": 23632855,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.7,
+   "matched": 1
+  },
+  {
+   "id": "bolivia",
+   "bytes": 174892844,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.7,
+   "matched": 19
+  },
+  {
+   "id": "bosnia-herzegovina",
+   "bytes": 162187617,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.3,
+   "matched": 5
+  },
+  {
+   "id": "botswana",
+   "bytes": 88077287,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.7,
+   "matched": 1
+  },
+  {
+   "id": "bourgogne",
+   "bytes": 200879503,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.3,
+   "matched": 379
+  },
+  {
+   "id": "brandenburg",
+   "bytes": 297072282,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 8.3,
+   "matched": 4193
+  },
+  {
+   "id": "bremen",
+   "bytes": 21263375,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.9,
+   "matched": 377
+  },
+  {
+   "id": "bretagne",
+   "bytes": 330430168,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 8.5,
+   "matched": 2055
+  },
+  {
+   "id": "bristol",
+   "bytes": 13380631,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.5,
+   "matched": 39
+  },
+  {
+   "id": "britain-and-ireland",
+   "bytes": 2638472134,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 71.6,
+   "matched": 10251
+  },
+  {
+   "id": "buckinghamshire",
+   "bytes": 22781677,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.7,
+   "matched": 42
+  },
+  {
+   "id": "bulgaria",
+   "bytes": 177192235,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.6,
+   "matched": 328
+  },
+  {
+   "id": "burkina-faso",
+   "bytes": 85007778,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.4,
+   "matched": 0
+  },
+  {
+   "id": "burundi",
+   "bytes": 46301727,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.3,
+   "matched": 4
+  },
+  {
+   "id": "cambodia",
+   "bytes": 41232998,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.1,
+   "matched": 13
+  },
+  {
+   "id": "cambridgeshire",
+   "bytes": 34938830,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.2,
+   "matched": 54
+  },
+  {
+   "id": "cameroon",
+   "bytes": 223696909,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.5,
+   "matched": 22
+  },
+  {
+   "id": "canary-islands",
+   "bytes": 60372019,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.8,
+   "matched": 255
+  },
+  {
+   "id": "cantabria",
+   "bytes": 35700264,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.1,
+   "matched": 112
+  },
+  {
+   "id": "cape-verde",
+   "bytes": 11712401,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.3,
+   "matched": 36
+  },
+  {
+   "id": "castilla-la-mancha",
+   "bytes": 107669305,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.8,
+   "matched": 1
+  },
+  {
+   "id": "castilla-y-leon",
+   "bytes": 179036797,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.7,
+   "matched": 5
+  },
+  {
+   "id": "cataluna",
+   "bytes": 273237936,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 7.8,
+   "matched": 449
+  },
+  {
+   "id": "central-african-republic",
+   "bytes": 99342938,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.0,
+   "matched": 0
+  },
+  {
+   "id": "central-america",
+   "bytes": 794141527,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 22.2,
+   "matched": 2046
+  },
+  {
+   "id": "central-fed-district",
+   "bytes": 885001518,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 23.1,
+   "matched": 583
+  },
+  {
+   "id": "central-zone",
+   "bytes": 352166476,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 9.5,
+   "matched": 3
+  },
+  {
+   "id": "centre",
+   "bytes": 245269906,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.4,
+   "matched": 42
+  },
+  {
+   "id": "centro",
+   "bytes": 386910301,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 10.2,
+   "matched": 496
+  },
+  {
+   "id": "centro-oeste",
+   "bytes": 208054440,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.0,
+   "matched": 135
+  },
+  {
+   "id": "ceuta",
+   "bytes": 630300,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.1,
+   "matched": 18
+  },
+  {
+   "id": "chad",
+   "bytes": 135840593,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.2,
+   "matched": 3
+  },
+  {
+   "id": "champagne-ardenne",
+   "bytes": 105710579,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.8,
+   "matched": 71
+  },
+  {
+   "id": "cheshire",
+   "bytes": 38699298,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.3,
+   "matched": 47
+  },
+  {
+   "id": "chile",
+   "bytes": 351480948,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 9.6,
+   "matched": 445
+  },
+  {
+   "id": "chongqing",
+   "bytes": 31559794,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.9,
+   "matched": 108
+  },
+  {
+   "id": "christmas-island",
+   "bytes": 222776,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.0,
+   "matched": 0
+  },
+  {
+   "id": "chubu",
+   "bytes": 519210883,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 13.9,
+   "matched": 216
+  },
+  {
+   "id": "chugoku",
+   "bytes": 239385764,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.4,
+   "matched": 225
+  },
+  {
+   "id": "cocos-islands",
+   "bytes": 265166,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.0,
+   "matched": 6
+  },
+  {
+   "id": "colombia",
+   "bytes": 334116136,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 9.0,
+   "matched": 127
+  },
+  {
+   "id": "comores",
+   "bytes": 3994841,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.1,
+   "matched": 9
+  },
+  {
+   "id": "congo-brazzaville",
+   "bytes": 32653795,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.0,
+   "matched": 20
+  },
+  {
+   "id": "congo-democratic-republic",
+   "bytes": 416508881,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 12.2,
+   "matched": 44
+  },
+  {
+   "id": "cook-islands",
+   "bytes": 974335,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.1,
+   "matched": 12
+  },
+  {
+   "id": "coral-sea-islands",
+   "bytes": 182483,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.0,
+   "matched": 0
+  },
+  {
+   "id": "cornwall",
+   "bytes": 34866836,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.0,
+   "matched": 149
+  },
+  {
+   "id": "corse",
+   "bytes": 34537940,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.1,
+   "matched": 165
+  },
+  {
+   "id": "costa-rica",
+   "bytes": 39164386,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.0,
+   "matched": 40
+  },
+  {
+   "id": "crimean-fed-district",
+   "bytes": 40718023,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.2,
+   "matched": 208
+  },
+  {
+   "id": "croatia",
+   "bytes": 201521696,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.5,
+   "matched": 1715
+  },
+  {
+   "id": "cuba",
+   "bytes": 63165575,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.8,
+   "matched": 201
+  },
+  {
+   "id": "cumbria",
+   "bytes": 45891967,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.3,
+   "matched": 66
+  },
+  {
+   "id": "cyprus",
+   "bytes": 37876788,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.2,
+   "matched": 230
+  },
+  {
+   "id": "dach",
+   "bytes": 6273596613,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 162.8,
+   "matched": 29238
+  },
+  {
+   "id": "denmark",
+   "bytes": 497531343,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 13.3,
+   "matched": 6755
+  },
+  {
+   "id": "derbyshire",
+   "bytes": 44144690,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.3,
+   "matched": 19
+  },
+  {
+   "id": "detmold-regbez",
+   "bytes": 137309674,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.7,
+   "matched": 110
+  },
+  {
+   "id": "devon",
+   "bytes": 58442285,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.7,
+   "matched": 201
+  },
+  {
+   "id": "djibouti",
+   "bytes": 7031526,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.3,
+   "matched": 18
+  },
+  {
+   "id": "dolnoslaskie",
+   "bytes": 182228817,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.8,
+   "matched": 54
+  },
+  {
+   "id": "dorset",
+   "bytes": 30252824,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.9,
+   "matched": 368
+  },
+  {
+   "id": "drenthe",
+   "bytes": 63780364,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.7,
+   "matched": 36
+  },
+  {
+   "id": "duesseldorf-regbez",
+   "bytes": 217259552,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.1,
+   "matched": 1560
+  },
+  {
+   "id": "durham",
+   "bytes": 23877153,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.8,
+   "matched": 34
+  },
+  {
+   "id": "east-sussex",
+   "bytes": 22157984,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.7,
+   "matched": 42
+  },
+  {
+   "id": "east-timor",
+   "bytes": 17795843,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.5,
+   "matched": 8
+  },
+  {
+   "id": "east-yorkshire-with-hull",
+   "bytes": 19429549,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.6,
+   "matched": 196
+  },
+  {
+   "id": "eastern-zone",
+   "bytes": 247675165,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.6,
+   "matched": 143
+  },
+  {
+   "id": "ecuador",
+   "bytes": 126002907,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.4,
+   "matched": 90
+  },
+  {
+   "id": "egypt",
+   "bytes": 179056424,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.8,
+   "matched": 869
+  },
+  {
+   "id": "el-salvador",
+   "bytes": 35229855,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.0,
+   "matched": 8
+  },
+  {
+   "id": "equatorial-guinea",
+   "bytes": 6550770,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.2,
+   "matched": 8
+  },
+  {
+   "id": "eritrea",
+   "bytes": 32083094,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.1,
+   "matched": 20
+  },
+  {
+   "id": "essex",
+   "bytes": 50144414,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.5,
+   "matched": 243
+  },
+  {
+   "id": "estonia",
+   "bytes": 124545129,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.8,
+   "matched": 856
+  },
+  {
+   "id": "ethiopia",
+   "bytes": 140215781,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.3,
+   "matched": 11
+  },
+  {
+   "id": "extremadura",
+   "bytes": 40280520,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.1,
+   "matched": 25
+  },
+  {
+   "id": "falklands",
+   "bytes": 5540183,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.2,
+   "matched": 25
+  },
+  {
+   "id": "far-eastern-fed-district",
+   "bytes": 397647357,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 10.2,
+   "matched": 813
+  },
+  {
+   "id": "faroe-islands",
+   "bytes": 7738429,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.3,
+   "matched": 57
+  },
+  {
+   "id": "fiji",
+   "bytes": 17256872,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.5,
+   "matched": 152
+  },
+  {
+   "id": "finland",
+   "bytes": 775535468,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 20.2,
+   "matched": 33308
+  },
+  {
+   "id": "flevoland",
+   "bytes": 36113681,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.2,
+   "matched": 2026
+  },
+  {
+   "id": "franche-comte",
+   "bytes": 125101464,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.3,
+   "matched": 80
+  },
+  {
+   "id": "freiburg-regbez",
+   "bytes": 160415846,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.3,
+   "matched": 511
+  },
+  {
+   "id": "friesland",
+   "bytes": 89093283,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.8,
+   "matched": 3289
+  },
+  {
+   "id": "fujian",
+   "bytes": 42402960,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.2,
+   "matched": 633
+  },
+  {
+   "id": "gabon",
+   "bytes": 25543741,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.8,
+   "matched": 19
+  },
+  {
+   "id": "galicia",
+   "bytes": 112267407,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.0,
+   "matched": 363
+  },
+  {
+   "id": "gansu",
+   "bytes": 63355120,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.8,
+   "matched": 3
+  },
+  {
+   "id": "gcc-states",
+   "bytes": 257399542,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 7.2,
+   "matched": 926
+  },
+  {
+   "id": "gelderland",
+   "bytes": 195731527,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.3,
+   "matched": 5384
+  },
+  {
+   "id": "georgia",
+   "bytes": 102588070,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.6,
+   "matched": 36
+  },
+  {
+   "id": "ghana",
+   "bytes": 116968158,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.4,
+   "matched": 21
+  },
+  {
+   "id": "gloucestershire",
+   "bytes": 41537073,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.2,
+   "matched": 16
+  },
+  {
+   "id": "greater-london",
+   "bytes": 130140824,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.9,
+   "matched": 359
+  },
+  {
+   "id": "greater-manchester",
+   "bytes": 51826909,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.6,
+   "matched": 11
+  },
+  {
+   "id": "greece",
+   "bytes": 342844175,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 9.0,
+   "matched": 1861
+  },
+  {
+   "id": "greenland",
+   "bytes": 26243072,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.7,
+   "matched": 98
+  },
+  {
+   "id": "groningen",
+   "bytes": 56770474,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.7,
+   "matched": 1066
+  },
+  {
+   "id": "guadeloupe",
+   "bytes": 24720495,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.7,
+   "matched": 172
+  },
+  {
+   "id": "guangdong",
+   "bytes": 174793884,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.2,
+   "matched": 3847
+  },
+  {
+   "id": "guangxi",
+   "bytes": 55645844,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.6,
+   "matched": 399
+  },
+  {
+   "id": "guatemala",
+   "bytes": 131415091,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.9,
+   "matched": 21
+  },
+  {
+   "id": "guernsey-jersey",
+   "bytes": 3932565,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.2,
+   "matched": 168
+  },
+  {
+   "id": "guinea",
+   "bytes": 118567534,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.5,
+   "matched": 57
+  },
+  {
+   "id": "guinea-bissau",
+   "bytes": 11167734,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.3,
+   "matched": 64
+  },
+  {
+   "id": "guizhou",
+   "bytes": 29118954,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.8,
+   "matched": 9
+  },
+  {
+   "id": "guyana",
+   "bytes": 15574366,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.5,
+   "matched": 11
+  },
+  {
+   "id": "guyane",
+   "bytes": 14409091,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.4,
+   "matched": 117
+  },
+  {
+   "id": "hainan",
+   "bytes": 9914249,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.4,
+   "matched": 337
+  },
+  {
+   "id": "haiti-and-domrep",
+   "bytes": 88799219,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.5,
+   "matched": 60
+  },
+  {
+   "id": "hamburg",
+   "bytes": 54138531,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.8,
+   "matched": 633
+  },
+  {
+   "id": "hampshire",
+   "bytes": 62474752,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.9,
+   "matched": 1078
+  },
+  {
+   "id": "haute-normandie",
+   "bytes": 107447601,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.9,
+   "matched": 362
+  },
+  {
+   "id": "heard-mcdonald",
+   "bytes": 99003,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.0,
+   "matched": 1
+  },
+  {
+   "id": "hebei",
+   "bytes": 108506321,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.0,
+   "matched": 664
+  },
+  {
+   "id": "heilongjiang",
+   "bytes": 37162157,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.0,
+   "matched": 14
+  },
+  {
+   "id": "henan",
+   "bytes": 51585218,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.5,
+   "matched": 31
+  },
+  {
+   "id": "herefordshire",
+   "bytes": 11248193,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.3,
+   "matched": 0
+  },
+  {
+   "id": "hertfordshire",
+   "bytes": 39436252,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.2,
+   "matched": 6
+  },
+  {
+   "id": "hessen",
+   "bytes": 347686465,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 9.2,
+   "matched": 773
+  },
+  {
+   "id": "hokkaido",
+   "bytes": 190059900,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.2,
+   "matched": 159
+  },
+  {
+   "id": "honduras",
+   "bytes": 74378513,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.1,
+   "matched": 11
+  },
+  {
+   "id": "hong-kong",
+   "bytes": 37858272,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.6,
+   "matched": 608
+  },
+  {
+   "id": "hubei",
+   "bytes": 56264478,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.6,
+   "matched": 41
+  },
+  {
+   "id": "hunan",
+   "bytes": 51328758,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.4,
+   "matched": 23
+  },
+  {
+   "id": "hungary",
+   "bytes": 329356133,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 9.0,
+   "matched": 1035
+  },
+  {
+   "id": "iceland",
+   "bytes": 64928258,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.8,
+   "matched": 265
+  },
+  {
+   "id": "ile-de-clipperton",
+   "bytes": 42714,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.0,
+   "matched": 2
+  },
+  {
+   "id": "ile-de-france",
+   "bytes": 340149194,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 8.8,
+   "matched": 675
+  },
+  {
+   "id": "inner-mongolia",
+   "bytes": 42586537,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.2,
+   "matched": 4
+  },
+  {
+   "id": "interior-admreg",
+   "bytes": 162628095,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.3,
+   "matched": 4
+  },
+  {
+   "id": "iran",
+   "bytes": 229996016,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.9,
+   "matched": 174
+  },
+  {
+   "id": "iraq",
+   "bytes": 91471265,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.5,
+   "matched": 28
+  },
+  {
+   "id": "ireland-and-northern-ireland",
+   "bytes": 417622517,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 11.7,
+   "matched": 2949
+  },
+  {
+   "id": "island-admreg",
+   "bytes": 110482019,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.8,
+   "matched": 397
+  },
+  {
+   "id": "islas-baleares",
+   "bytes": 46840996,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.5,
+   "matched": 825
+  },
+  {
+   "id": "isle-of-man",
+   "bytes": 6119823,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.3,
+   "matched": 50
+  },
+  {
+   "id": "isle-of-wight",
+   "bytes": 9086782,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.3,
+   "matched": 274
+  },
+  {
+   "id": "isole",
+   "bytes": 216243851,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.1,
+   "matched": 993
+  },
+  {
+   "id": "israel-and-palestine",
+   "bytes": 121214756,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.2,
+   "matched": 74
+  },
+  {
+   "id": "ivory-coast",
+   "bytes": 85641292,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.6,
+   "matched": 23
+  },
+  {
+   "id": "jamaica",
+   "bytes": 38658869,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.2,
+   "matched": 47
+  },
+  {
+   "id": "java",
+   "bytes": 899366840,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 26.8,
+   "matched": 170
+  },
+  {
+   "id": "jiangsu",
+   "bytes": 80460846,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.3,
+   "matched": 782
+  },
+  {
+   "id": "jiangxi",
+   "bytes": 50058596,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.4,
+   "matched": 29
+  },
+  {
+   "id": "jihocesky",
+   "bytes": 97198159,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.5,
+   "matched": 41
+  },
+  {
+   "id": "jihomoravsky",
+   "bytes": 91934702,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.4,
+   "matched": 21
+  },
+  {
+   "id": "jilin",
+   "bytes": 28332490,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.8,
+   "matched": 3
+  },
+  {
+   "id": "jordan",
+   "bytes": 31140246,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.8,
+   "matched": 22
+  },
+  {
+   "id": "kalimantan",
+   "bytes": 147611816,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.3,
+   "matched": 168
+  },
+  {
+   "id": "kaliningrad",
+   "bytes": 29330182,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.9,
+   "matched": 205
+  },
+  {
+   "id": "kansai",
+   "bytes": 355626172,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 10.0,
+   "matched": 292
+  },
+  {
+   "id": "kanto",
+   "bytes": 524162063,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 14.7,
+   "matched": 414
+  },
+  {
+   "id": "karlovarsky",
+   "bytes": 30836967,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.8,
+   "matched": 0
+  },
+  {
+   "id": "karlsruhe-regbez",
+   "bytes": 155194704,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.3,
+   "matched": 515
+  },
+  {
+   "id": "kazakhstan",
+   "bytes": 225990811,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.4,
+   "matched": 39
+  },
+  {
+   "id": "kent",
+   "bytes": 54322714,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.7,
+   "matched": 520
+  },
+  {
+   "id": "kenya",
+   "bytes": 351859950,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 10.5,
+   "matched": 18
+  },
+  {
+   "id": "kiribati",
+   "bytes": 2453939,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.1,
+   "matched": 10
+  },
+  {
+   "id": "kitikmeot",
+   "bytes": 420187390,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 8.0,
+   "matched": 1
+  },
+  {
+   "id": "kivalliq",
+   "bytes": 491959951,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 9.3,
+   "matched": 5
+  },
+  {
+   "id": "koeln-regbez",
+   "bytes": 225248745,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.1,
+   "matched": 337
+  },
+  {
+   "id": "kootenay-admreg",
+   "bytes": 63808878,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.5,
+   "matched": 12
+  },
+  {
+   "id": "kosovo",
+   "bytes": 30852425,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.8,
+   "matched": 0
+  },
+  {
+   "id": "kralovehradecky",
+   "bytes": 60290327,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.6,
+   "matched": 6
+  },
+  {
+   "id": "kujawsko-pomorskie",
+   "bytes": 105504166,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.0,
+   "matched": 71
+  },
+  {
+   "id": "kyrgyzstan",
+   "bytes": 77194860,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.3,
+   "matched": 13
+  },
+  {
+   "id": "kyushu",
+   "bytes": 317393496,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 8.5,
+   "matched": 450
+  },
+  {
+   "id": "la-rioja",
+   "bytes": 14577201,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.4,
+   "matched": 2
+  },
+  {
+   "id": "lancashire",
+   "bytes": 42407892,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.3,
+   "matched": 69
+  },
+  {
+   "id": "languedoc-roussillon",
+   "bytes": 270841941,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 7.1,
+   "matched": 524
+  },
+  {
+   "id": "laos",
+   "bytes": 54113958,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.4,
+   "matched": 16
+  },
+  {
+   "id": "latvia",
+   "bytes": 141468468,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.8,
+   "matched": 361
+  },
+  {
+   "id": "lebanon",
+   "bytes": 52577528,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.5,
+   "matched": 46
+  },
+  {
+   "id": "leicestershire",
+   "bytes": 20597504,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.7,
+   "matched": 24
+  },
+  {
+   "id": "lesotho",
+   "bytes": 127385139,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.6,
+   "matched": 0
+  },
+  {
+   "id": "liaoning",
+   "bytes": 28700273,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.8,
+   "matched": 408
+  },
+  {
+   "id": "liberecky",
+   "bytes": 47086613,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.2,
+   "matched": 1
+  },
+  {
+   "id": "liberia",
+   "bytes": 37323046,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.1,
+   "matched": 15
+  },
+  {
+   "id": "libya",
+   "bytes": 76737553,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.2,
+   "matched": 114
+  },
+  {
+   "id": "liechtenstein",
+   "bytes": 3501791,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.1,
+   "matched": 0
+  },
+  {
+   "id": "limburg",
+   "bytes": 100873860,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.8,
+   "matched": 1319
+  },
+  {
+   "id": "limousin",
+   "bytes": 99130240,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.5,
+   "matched": 25
+  },
+  {
+   "id": "lincolnshire",
+   "bytes": 43295126,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.3,
+   "matched": 181
+  },
+  {
+   "id": "lithuania",
+   "bytes": 224076713,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.0,
+   "matched": 359
+  },
+  {
+   "id": "lodzkie",
+   "bytes": 132662303,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.8,
+   "matched": 19
+  },
+  {
+   "id": "lorraine",
+   "bytes": 171595800,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.6,
+   "matched": 128
+  },
+  {
+   "id": "lubelskie",
+   "bytes": 139646101,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.8,
+   "matched": 30
+  },
+  {
+   "id": "lubuskie",
+   "bytes": 63163684,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.8,
+   "matched": 190
+  },
+  {
+   "id": "luxembourg",
+   "bytes": 47927791,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.3,
+   "matched": 71
+  },
+  {
+   "id": "macau",
+   "bytes": 2961005,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.1,
+   "matched": 142
+  },
+  {
+   "id": "macedonia",
+   "bytes": 29922898,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.8,
+   "matched": 7
+  },
+  {
+   "id": "madagascar",
+   "bytes": 391723491,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 11.4,
+   "matched": 58
+  },
+  {
+   "id": "madrid",
+   "bytes": 85566792,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.3,
+   "matched": 9
+  },
+  {
+   "id": "malawi",
+   "bytes": 156128963,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.6,
+   "matched": 17
+  },
+  {
+   "id": "malaysia-singapore-brunei",
+   "bytes": 252964075,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.9,
+   "matched": 600
+  },
+  {
+   "id": "maldives",
+   "bytes": 3661288,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.3,
+   "matched": 181
+  },
+  {
+   "id": "mali",
+   "bytes": 173970012,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.2,
+   "matched": 8
+  },
+  {
+   "id": "malopolskie",
+   "bytes": 203564782,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.5,
+   "matched": 96
+  },
+  {
+   "id": "malta",
+   "bytes": 8995787,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.4,
+   "matched": 32
+  },
+  {
+   "id": "maluku",
+   "bytes": 26776472,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.9,
+   "matched": 136
+  },
+  {
+   "id": "manitoba",
+   "bytes": 218500762,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.9,
+   "matched": 165
+  },
+  {
+   "id": "marshall-islands",
+   "bytes": 3901579,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.1,
+   "matched": 14
+  },
+  {
+   "id": "martinique",
+   "bytes": 20380506,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.6,
+   "matched": 118
+  },
+  {
+   "id": "mauritania",
+   "bytes": 30946796,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.0,
+   "matched": 27
+  },
+  {
+   "id": "mauritius",
+   "bytes": 9428771,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.3,
+   "matched": 45
+  },
+  {
+   "id": "mayotte",
+   "bytes": 10975438,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.4,
+   "matched": 10
+  },
+  {
+   "id": "mazowieckie",
+   "bytes": 301995499,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 8.4,
+   "matched": 210
+  },
+  {
+   "id": "mecklenburg-vorpommern",
+   "bytes": 128807744,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.8,
+   "matched": 3319
+  },
+  {
+   "id": "melilla",
+   "bytes": 800518,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.0,
+   "matched": 15
+  },
+  {
+   "id": "merseyside",
+   "bytes": 25486317,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.8,
+   "matched": 109
+  },
+  {
+   "id": "mexico",
+   "bytes": 648403910,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 17.0,
+   "matched": 275
+  },
+  {
+   "id": "micronesia",
+   "bytes": 1987620,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.1,
+   "matched": 82
+  },
+  {
+   "id": "midi-pyrenees",
+   "bytes": 364065107,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 9.3,
+   "matched": 103
+  },
+  {
+   "id": "mittelfranken",
+   "bytes": 96099556,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.6,
+   "matched": 299
+  },
+  {
+   "id": "moldova",
+   "bytes": 101489455,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.9,
+   "matched": 4
+  },
+  {
+   "id": "monaco",
+   "bytes": 707417,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.1,
+   "matched": 8
+  },
+  {
+   "id": "mongolia",
+   "bytes": 62468378,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.9,
+   "matched": 2
+  },
+  {
+   "id": "montenegro",
+   "bytes": 34685111,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.0,
+   "matched": 86
+  },
+  {
+   "id": "moravskoslezky",
+   "bytes": 80539359,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.1,
+   "matched": 8
+  },
+  {
+   "id": "morocco",
+   "bytes": 244434479,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.1,
+   "matched": 212
+  },
+  {
+   "id": "mozambique",
+   "bytes": 255921141,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 7.7,
+   "matched": 45
+  },
+  {
+   "id": "muenster-regbez",
+   "bytes": 140937393,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.9,
+   "matched": 96
+  },
+  {
+   "id": "murcia",
+   "bytes": 35406594,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.1,
+   "matched": 119
+  },
+  {
+   "id": "myanmar",
+   "bytes": 287336760,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 8.3,
+   "matched": 60
+  },
+  {
+   "id": "namibia",
+   "bytes": 55067139,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.4,
+   "matched": 27
+  },
+  {
+   "id": "nauru",
+   "bytes": 267630,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.0,
+   "matched": 4
+  },
+  {
+   "id": "navarra",
+   "bytes": 37606610,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.0,
+   "matched": 0
+  },
+  {
+   "id": "nepal",
+   "bytes": 414908391,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 11.8,
+   "matched": 2
+  },
+  {
+   "id": "new-brunswick",
+   "bytes": 66575842,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.7,
+   "matched": 232
+  },
+  {
+   "id": "new-caledonia",
+   "bytes": 14239101,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.5,
+   "matched": 63
+  },
+  {
+   "id": "new-south-wales",
+   "bytes": 270794131,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 7.4,
+   "matched": 1620
+  },
+  {
+   "id": "new-zealand",
+   "bytes": 405984889,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 11.5,
+   "matched": 3098
+  },
+  {
+   "id": "newfoundland-and-labrador",
+   "bytes": 259415804,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.3,
+   "matched": 333
+  },
+  {
+   "id": "nicaragua",
+   "bytes": 62128337,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.9,
+   "matched": 124
+  },
+  {
+   "id": "niederbayern",
+   "bytes": 95534161,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.5,
+   "matched": 461
+  },
+  {
+   "id": "niedersachsen",
+   "bytes": 509971076,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 13.9,
+   "matched": 5424
+  },
+  {
+   "id": "niger",
+   "bytes": 79250472,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.3,
+   "matched": 2
+  },
+  {
+   "id": "nigeria",
+   "bytes": 714514531,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 22.1,
+   "matched": 20
+  },
+  {
+   "id": "ningxia",
+   "bytes": 8406076,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.3,
+   "matched": 1
+  },
+  {
+   "id": "niue",
+   "bytes": 425431,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.0,
+   "matched": 8
+  },
+  {
+   "id": "noord-brabant",
+   "bytes": 207453909,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.8,
+   "matched": 1415
+  },
+  {
+   "id": "noord-holland",
+   "bytes": 190378658,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.7,
+   "matched": 2451
+  },
+  {
+   "id": "norcal",
+   "bytes": 655544424,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 16.6,
+   "matched": 692
+  },
+  {
+   "id": "nord-est",
+   "bytes": 626979430,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 16.3,
+   "matched": 950
+  },
+  {
+   "id": "nord-norge",
+   "bytes": 407263974,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 9.8,
+   "matched": 8075
+  },
+  {
+   "id": "nord-ovest",
+   "bytes": 595082920,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 15.4,
+   "matched": 708
+  },
+  {
+   "id": "nord-pas-de-calais",
+   "bytes": 241109816,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.2,
+   "matched": 216
+  },
+  {
+   "id": "nordeste",
+   "bytes": 445135367,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 12.1,
+   "matched": 609
+  },
+  {
+   "id": "norfolk",
+   "bytes": 47222053,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.4,
+   "matched": 90
+  },
+  {
+   "id": "norfolk-island",
+   "bytes": 336518,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.0,
+   "matched": 1
+  },
+  {
+   "id": "norte",
+   "bytes": 161491126,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.4,
+   "matched": 399
+  },
+  {
+   "id": "north-admreg",
+   "bytes": 761739369,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 15.0,
+   "matched": 29
+  },
+  {
+   "id": "north-caucasus-fed-district",
+   "bytes": 129514443,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.7,
+   "matched": 44
+  },
+  {
+   "id": "north-eastern-zone",
+   "bytes": 109980139,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.1,
+   "matched": 5
+  },
+  {
+   "id": "north-korea",
+   "bytes": 93259145,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.7,
+   "matched": 150
+  },
+  {
+   "id": "north-yorkshire",
+   "bytes": 61931570,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.7,
+   "matched": 40
+  },
+  {
+   "id": "northamptonshire",
+   "bytes": 22975627,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.8,
+   "matched": 31
+  },
+  {
+   "id": "northern-territory",
+   "bytes": 17814154,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.5,
+   "matched": 16
+  },
+  {
+   "id": "northern-zone",
+   "bytes": 224749181,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.9,
+   "matched": 9
+  },
+  {
+   "id": "northumberland",
+   "bytes": 26288052,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.7,
+   "matched": 73
+  },
+  {
+   "id": "northwest-territories",
+   "bytes": 410159759,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 8.3,
+   "matched": 4
+  },
+  {
+   "id": "northwestern-fed-district",
+   "bytes": 657062121,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 17.0,
+   "matched": 2948
+  },
+  {
+   "id": "nottinghamshire",
+   "bytes": 38802549,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.2,
+   "matched": 12
+  },
+  {
+   "id": "nova-scotia",
+   "bytes": 99571876,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.5,
+   "matched": 241
+  },
+  {
+   "id": "nusa-tenggara",
+   "bytes": 177008557,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.3,
+   "matched": 317
+  },
+  {
+   "id": "oberbayern",
+   "bytes": 259990677,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.9,
+   "matched": 504
+  },
+  {
+   "id": "oberfranken",
+   "bytes": 94875345,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.5,
+   "matched": 70
+  },
+  {
+   "id": "oberpfalz",
+   "bytes": 85721375,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.3,
+   "matched": 173
+  },
+  {
+   "id": "okanagan-admreg",
+   "bytes": 44849015,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.3,
+   "matched": 33
+  },
+  {
+   "id": "olomoucky",
+   "bytes": 58331026,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.5,
+   "matched": 3
+  },
+  {
+   "id": "ontario",
+   "bytes": 1026034355,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 24.7,
+   "matched": 1271
+  },
+  {
+   "id": "opolskie",
+   "bytes": 54919538,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.6,
+   "matched": 14
+  },
+  {
+   "id": "ostlandet",
+   "bytes": 456009957,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 12.1,
+   "matched": 2764
+  },
+  {
+   "id": "overijssel",
+   "bytes": 114453020,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.2,
+   "matched": 1938
+  },
+  {
+   "id": "oxfordshire",
+   "bytes": 28186303,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.9,
+   "matched": 35
+  },
+  {
+   "id": "pais-vasco",
+   "bytes": 69306888,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.9,
+   "matched": 180
+  },
+  {
+   "id": "pakistan",
+   "bytes": 157872188,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.3,
+   "matched": 33
+  },
+  {
+   "id": "palau",
+   "bytes": 822757,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.0,
+   "matched": 18
+  },
+  {
+   "id": "panama",
+   "bytes": 36654679,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.1,
+   "matched": 465
+  },
+  {
+   "id": "papua",
+   "bytes": 36330628,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.1,
+   "matched": 54
+  },
+  {
+   "id": "papua-new-guinea",
+   "bytes": 54515603,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.6,
+   "matched": 48
+  },
+  {
+   "id": "paraguay",
+   "bytes": 154642697,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.7,
+   "matched": 172
+  },
+  {
+   "id": "pardubicky",
+   "bytes": 55276317,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.5,
+   "matched": 5
+  },
+  {
+   "id": "pays-de-la-loire",
+   "bytes": 373980610,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 9.5,
+   "matched": 943
+  },
+  {
+   "id": "peru",
+   "bytes": 257396244,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 7.1,
+   "matched": 188
+  },
+  {
+   "id": "philippines",
+   "bytes": 613349243,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 17.7,
+   "matched": 775
+  },
+  {
+   "id": "picardie",
+   "bytes": 133447926,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.7,
+   "matched": 122
+  },
+  {
+   "id": "pitcairn-islands",
+   "bytes": 115604,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.0,
+   "matched": 2
+  },
+  {
+   "id": "plzensky",
+   "bytes": 71831547,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.9,
+   "matched": 5
+  },
+  {
+   "id": "podkarpackie",
+   "bytes": 155063732,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.2,
+   "matched": 35
+  },
+  {
+   "id": "podlaskie",
+   "bytes": 77939164,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.2,
+   "matched": 61
+  },
+  {
+   "id": "poitou-charentes",
+   "bytes": 231370802,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.8,
+   "matched": 329
+  },
+  {
+   "id": "polynesie-francaise",
+   "bytes": 15675220,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.6,
+   "matched": 168
+  },
+  {
+   "id": "pomorskie",
+   "bytes": 118459502,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.5,
+   "matched": 471
+  },
+  {
+   "id": "portugal",
+   "bytes": 427922336,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 11.5,
+   "matched": 961
+  },
+  {
+   "id": "praha",
+   "bytes": 45096423,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.4,
+   "matched": 62
+  },
+  {
+   "id": "prince-edward-island",
+   "bytes": 11589920,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.4,
+   "matched": 41
+  },
+  {
+   "id": "provence-alpes-cote-d-azur",
+   "bytes": 391584336,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 9.9,
+   "matched": 1079
+  },
+  {
+   "id": "qikiqtaaluk",
+   "bytes": 603013447,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 11.3,
+   "matched": 2
+  },
+  {
+   "id": "qinghai",
+   "bytes": 33520961,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.1,
+   "matched": 1
+  },
+  {
+   "id": "quebec",
+   "bytes": 1166570375,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 24.7,
+   "matched": 533
+  },
+  {
+   "id": "queensland",
+   "bytes": 199650770,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.5,
+   "matched": 1896
+  },
+  {
+   "id": "reunion",
+   "bytes": 34556327,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.0,
+   "matched": 50
+  },
+  {
+   "id": "rheinland-pfalz",
+   "bytes": 275022668,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 7.6,
+   "matched": 1769
+  },
+  {
+   "id": "rhone-alpes",
+   "bytes": 532515884,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 13.8,
+   "matched": 706
+  },
+  {
+   "id": "romania",
+   "bytes": 333142746,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 8.8,
+   "matched": 615
+  },
+  {
+   "id": "rutland",
+   "bytes": 1946502,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.1,
+   "matched": 0
+  },
+  {
+   "id": "rwanda",
+   "bytes": 68743853,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.0,
+   "matched": 3
+  },
+  {
+   "id": "saarland",
+   "bytes": 55010684,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.6,
+   "matched": 63
+  },
+  {
+   "id": "sachsen",
+   "bytes": 269903562,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 7.1,
+   "matched": 1020
+  },
+  {
+   "id": "sachsen-anhalt",
+   "bytes": 177041930,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.8,
+   "matched": 2254
+  },
+  {
+   "id": "saint-helena-ascension-and-tristan-da-cunha",
+   "bytes": 901377,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.0,
+   "matched": 8
+  },
+  {
+   "id": "samoa",
+   "bytes": 3464032,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.1,
+   "matched": 51
+  },
+  {
+   "id": "sao-tome-and-principe",
+   "bytes": 1268823,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.1,
+   "matched": 1
+  },
+  {
+   "id": "saskatchewan",
+   "bytes": 118164949,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.9,
+   "matched": 25
+  },
+  {
+   "id": "schleswig-holstein",
+   "bytes": 159317142,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.7,
+   "matched": 3841
+  },
+  {
+   "id": "schwaben",
+   "bytes": 128584957,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.4,
+   "matched": 148
+  },
+  {
+   "id": "scotland",
+   "bytes": 329757871,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 9.0,
+   "matched": 1299
+  },
+  {
+   "id": "sea",
+   "bytes": 3687822283,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 103.7,
+   "matched": 3202
+  },
+  {
+   "id": "senegal-and-gambia",
+   "bytes": 105608902,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.1,
+   "matched": 113
+  },
+  {
+   "id": "serbia",
+   "bytes": 241875793,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.5,
+   "matched": 426
+  },
+  {
+   "id": "seychelles",
+   "bytes": 2775864,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.1,
+   "matched": 8
+  },
+  {
+   "id": "shaanxi",
+   "bytes": 100706393,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.7,
+   "matched": 5
+  },
+  {
+   "id": "shandong",
+   "bytes": 71999662,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.1,
+   "matched": 775
+  },
+  {
+   "id": "shanghai",
+   "bytes": 26079230,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.8,
+   "matched": 369
+  },
+  {
+   "id": "shanxi",
+   "bytes": 32087294,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.9,
+   "matched": 19
+  },
+  {
+   "id": "shikoku",
+   "bytes": 92105760,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.5,
+   "matched": 220
+  },
+  {
+   "id": "shropshire",
+   "bytes": 25269823,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.7,
+   "matched": 16
+  },
+  {
+   "id": "siberian-fed-district",
+   "bytes": 589739527,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 16.5,
+   "matched": 1795
+  },
+  {
+   "id": "sichuan",
+   "bytes": 108259636,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.9,
+   "matched": 60
+  },
+  {
+   "id": "sierra-leone",
+   "bytes": 46345705,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.3,
+   "matched": 6
+  },
+  {
+   "id": "slaskie",
+   "bytes": 186718925,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.2,
+   "matched": 60
+  },
+  {
+   "id": "slovakia",
+   "bytes": 348038984,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 9.5,
+   "matched": 289
+  },
+  {
+   "id": "slovenia",
+   "bytes": 314429872,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 8.0,
+   "matched": 107
+  },
+  {
+   "id": "socal",
+   "bytes": 672866123,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 19.3,
+   "matched": 760
+  },
+  {
+   "id": "solomon-islands",
+   "bytes": 11926409,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.4,
+   "matched": 26
+  },
+  {
+   "id": "somalia",
+   "bytes": 164780012,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.6,
+   "matched": 14
+  },
+  {
+   "id": "somerset",
+   "bytes": 50166525,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.5,
+   "matched": 56
+  },
+  {
+   "id": "sorlandet",
+   "bytes": 77149120,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.2,
+   "matched": 1340
+  },
+  {
+   "id": "south-africa",
+   "bytes": 424146790,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 12.6,
+   "matched": 309
+  },
+  {
+   "id": "south-australia",
+   "bytes": 68354328,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.0,
+   "matched": 155
+  },
+  {
+   "id": "south-fed-district",
+   "bytes": 317376570,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 8.6,
+   "matched": 432
+  },
+  {
+   "id": "south-korea",
+   "bytes": 291304615,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 7.9,
+   "matched": 1650
+  },
+  {
+   "id": "south-sudan",
+   "bytes": 139310708,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.5,
+   "matched": 2
+  },
+  {
+   "id": "south-yorkshire",
+   "bytes": 31179656,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.9,
+   "matched": 6
+  },
+  {
+   "id": "southcoast-admreg",
+   "bytes": 117848532,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.2,
+   "matched": 326
+  },
+  {
+   "id": "southern-zone",
+   "bytes": 559452382,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 15.1,
+   "matched": 134
+  },
+  {
+   "id": "sri-lanka",
+   "bytes": 144588929,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.3,
+   "matched": 51
+  },
+  {
+   "id": "staffordshire",
+   "bytes": 30980985,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.0,
+   "matched": 40
+  },
+  {
+   "id": "stredocesky",
+   "bytes": 181926318,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.9,
+   "matched": 102
+  },
+  {
+   "id": "stuttgart-regbez",
+   "bytes": 212444519,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.7,
+   "matched": 264
+  },
+  {
+   "id": "sud",
+   "bytes": 422845180,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 11.6,
+   "matched": 559
+  },
+  {
+   "id": "sudan",
+   "bytes": 205830224,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.4,
+   "matched": 40
+  },
+  {
+   "id": "sudeste",
+   "bytes": 863293692,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 23.9,
+   "matched": 2071
+  },
+  {
+   "id": "suffolk",
+   "bytes": 33581662,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.0,
+   "matched": 135
+  },
+  {
+   "id": "sul",
+   "bytes": 430374517,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 11.9,
+   "matched": 707
+  },
+  {
+   "id": "sulawesi",
+   "bytes": 158380938,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.7,
+   "matched": 302
+  },
+  {
+   "id": "sumatra",
+   "bytes": 283337289,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 8.2,
+   "matched": 255
+  },
+  {
+   "id": "suriname",
+   "bytes": 21426642,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.6,
+   "matched": 16
+  },
+  {
+   "id": "surrey",
+   "bytes": 43396189,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.3,
+   "matched": 9
+  },
+  {
+   "id": "svalbard-janmayen",
+   "bytes": 3095534,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.1,
+   "matched": 74
+  },
+  {
+   "id": "swaziland",
+   "bytes": 30856888,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.9,
+   "matched": 1
+  },
+  {
+   "id": "sweden",
+   "bytes": 954013118,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 24.5,
+   "matched": 10261
+  },
+  {
+   "id": "swietokrzyskie",
+   "bytes": 88608186,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.4,
+   "matched": 15
+  },
+  {
+   "id": "switzerland",
+   "bytes": 550464799,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 14.5,
+   "matched": 1768
+  },
+  {
+   "id": "syria",
+   "bytes": 82376497,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.4,
+   "matched": 35
+  },
+  {
+   "id": "taiwan",
+   "bytes": 328267535,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 13.3,
+   "matched": 616
+  },
+  {
+   "id": "tajikistan",
+   "bytes": 48683697,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.3,
+   "matched": 1
+  },
+  {
+   "id": "tanzania",
+   "bytes": 706921066,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 20.9,
+   "matched": 63
+  },
+  {
+   "id": "tasmania",
+   "bytes": 54139632,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.5,
+   "matched": 174
+  },
+  {
+   "id": "thailand",
+   "bytes": 330007066,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 8.7,
+   "matched": 214
+  },
+  {
+   "id": "thueringen",
+   "bytes": 160309318,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.3,
+   "matched": 10
+  },
+  {
+   "id": "tianjin",
+   "bytes": 15020845,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.5,
+   "matched": 191
+  },
+  {
+   "id": "tibet",
+   "bytes": 50673093,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.3,
+   "matched": 5
+  },
+  {
+   "id": "togo",
+   "bytes": 62402276,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.9,
+   "matched": 5
+  },
+  {
+   "id": "tohoku",
+   "bytes": 312081963,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 7.9,
+   "matched": 131
+  },
+  {
+   "id": "tokelau",
+   "bytes": 145307,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.0,
+   "matched": 2
+  },
+  {
+   "id": "tonga",
+   "bytes": 3717960,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.1,
+   "matched": 123
+  },
+  {
+   "id": "trondelag",
+   "bytes": 183333920,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.7,
+   "matched": 3130
+  },
+  {
+   "id": "tuebingen-regbez",
+   "bytes": 128412995,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.5,
+   "matched": 244
+  },
+  {
+   "id": "tunisia",
+   "bytes": 84666739,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.2,
+   "matched": 238
+  },
+  {
+   "id": "turkey",
+   "bytes": 653261176,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 17.6,
+   "matched": 1109
+  },
+  {
+   "id": "turkmenistan",
+   "bytes": 25049708,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.7,
+   "matched": 37
+  },
+  {
+   "id": "tuvalu",
+   "bytes": 369908,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.0,
+   "matched": 7
+  },
+  {
+   "id": "tyne-and-wear",
+   "bytes": 19582901,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.6,
+   "matched": 23
+  },
+  {
+   "id": "uganda",
+   "bytes": 372044901,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 12.1,
+   "matched": 98
+  },
+  {
+   "id": "ukraine",
+   "bytes": 883825015,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 23.4,
+   "matched": 788
+  },
+  {
+   "id": "unterfranken",
+   "bytes": 104657629,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.8,
+   "matched": 629
+  },
+  {
+   "id": "ural-fed-district",
+   "bytes": 397222219,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 10.3,
+   "matched": 61
+  },
+  {
+   "id": "uruguay",
+   "bytes": 56379416,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.7,
+   "matched": 496
+  },
+  {
+   "id": "us-midwest",
+   "bytes": 2533582792,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 67.9,
+   "matched": 3339
+  },
+  {
+   "id": "us-northeast",
+   "bytes": 1810118608,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 48.2,
+   "matched": 3984
+  },
+  {
+   "id": "us-pacific",
+   "bytes": 172387534,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.8,
+   "matched": 424
+  },
+  {
+   "id": "us-south",
+   "bytes": 4159691657,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 110.9,
+   "matched": 4783
+  },
+  {
+   "id": "us-west",
+   "bytes": 3431434577,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 91.2,
+   "matched": 3861
+  },
+  {
+   "id": "us/alabama",
+   "bytes": 151825646,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.2,
+   "matched": 88
+  },
+  {
+   "id": "us/alaska",
+   "bytes": 144211221,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.9,
+   "matched": 266
+  },
+  {
+   "id": "us/arizona",
+   "bytes": 304915882,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 8.8,
+   "matched": 28
+  },
+  {
+   "id": "us/arkansas",
+   "bytes": 100586866,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.7,
+   "matched": 48
+  },
+  {
+   "id": "us/colorado",
+   "bytes": 387855688,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 10.6,
+   "matched": 26
+  },
+  {
+   "id": "us/connecticut",
+   "bytes": 217494509,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.5,
+   "matched": 417
+  },
+  {
+   "id": "us/delaware",
+   "bytes": 22265553,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.8,
+   "matched": 46
+  },
+  {
+   "id": "us/district-of-columbia",
+   "bytes": 21048822,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.7,
+   "matched": 46
+  },
+  {
+   "id": "us/florida",
+   "bytes": 660637555,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 19.1,
+   "matched": 1397
+  },
+  {
+   "id": "us/georgia",
+   "bytes": 358492132,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 9.9,
+   "matched": 149
+  },
+  {
+   "id": "us/hawaii",
+   "bytes": 27653711,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.0,
+   "matched": 156
+  },
+  {
+   "id": "us/idaho",
+   "bytes": 130398555,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.4,
+   "matched": 28
+  },
+  {
+   "id": "us/illinois",
+   "bytes": 363165932,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 11.2,
+   "matched": 532
+  },
+  {
+   "id": "us/indiana",
+   "bytes": 201808545,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.0,
+   "matched": 69
+  },
+  {
+   "id": "us/iowa",
+   "bytes": 134409988,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.7,
+   "matched": 42
+  },
+  {
+   "id": "us/kansas",
+   "bytes": 117704838,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.3,
+   "matched": 65
+  },
+  {
+   "id": "us/kentucky",
+   "bytes": 155180792,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.2,
+   "matched": 98
+  },
+  {
+   "id": "us/louisiana",
+   "bytes": 147508812,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.9,
+   "matched": 114
+  },
+  {
+   "id": "us/maine",
+   "bytes": 91215134,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.6,
+   "matched": 461
+  },
+  {
+   "id": "us/maryland",
+   "bytes": 216810553,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.4,
+   "matched": 1032
+  },
+  {
+   "id": "us/massachusetts",
+   "bytes": 311670184,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 8.1,
+   "matched": 484
+  },
+  {
+   "id": "us/michigan",
+   "bytes": 317258877,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 9.4,
+   "matched": 965
+  },
+  {
+   "id": "us/minnesota",
+   "bytes": 290361380,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 7.7,
+   "matched": 154
+  },
+  {
+   "id": "us/mississippi",
+   "bytes": 95207384,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.5,
+   "matched": 24
+  },
+  {
+   "id": "us/missouri",
+   "bytes": 200631633,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.6,
+   "matched": 508
+  },
+  {
+   "id": "us/montana",
+   "bytes": 101460740,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.6,
+   "matched": 18
+  },
+  {
+   "id": "us/nebraska",
+   "bytes": 101580791,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.8,
+   "matched": 21
+  },
+  {
+   "id": "us/nevada",
+   "bytes": 124132717,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.7,
+   "matched": 8
+  },
+  {
+   "id": "us/new-hampshire",
+   "bytes": 72521640,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.0,
+   "matched": 139
+  },
+  {
+   "id": "us/new-jersey",
+   "bytes": 165046359,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.7,
+   "matched": 416
+  },
+  {
+   "id": "us/new-mexico",
+   "bytes": 136790862,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.7,
+   "matched": 10
+  },
+  {
+   "id": "us/new-york",
+   "bytes": 498690408,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 14.9,
+   "matched": 1897
+  },
+  {
+   "id": "us/north-carolina",
+   "bytes": 430745255,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 11.6,
+   "matched": 628
+  },
+  {
+   "id": "us/north-dakota",
+   "bytes": 128299496,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.0,
+   "matched": 4
+  },
+  {
+   "id": "us/ohio",
+   "bytes": 327128132,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 9.3,
+   "matched": 708
+  },
+  {
+   "id": "us/oklahoma",
+   "bytes": 170236729,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.4,
+   "matched": 25
+  },
+  {
+   "id": "us/oregon",
+   "bytes": 255488206,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.8,
+   "matched": 836
+  },
+  {
+   "id": "us/pennsylvania",
+   "bytes": 350116476,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 9.5,
+   "matched": 133
+  },
+  {
+   "id": "us/puerto-rico",
+   "bytes": 74320225,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.2,
+   "matched": 48
+  },
+  {
+   "id": "us/rhode-island",
+   "bytes": 52531197,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.4,
+   "matched": 112
+  },
+  {
+   "id": "us/south-carolina",
+   "bytes": 165963271,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.6,
+   "matched": 232
+  },
+  {
+   "id": "us/south-dakota",
+   "bytes": 50326649,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.4,
+   "matched": 4
+  },
+  {
+   "id": "us/tennessee",
+   "bytes": 191353641,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.3,
+   "matched": 100
+  },
+  {
+   "id": "us/texas",
+   "bytes": 727431582,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 19.7,
+   "matched": 207
+  },
+  {
+   "id": "us/us-virgin-islands",
+   "bytes": 3122322,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.1,
+   "matched": 12
+  },
+  {
+   "id": "us/utah",
+   "bytes": 171584374,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.8,
+   "matched": 29
+  },
+  {
+   "id": "us/vermont",
+   "bytes": 46247160,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.3,
+   "matched": 26
+  },
+  {
+   "id": "us/virginia",
+   "bytes": 429447424,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 12.2,
+   "matched": 557
+  },
+  {
+   "id": "us/washington",
+   "bytes": 365725774,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 10.3,
+   "matched": 1761
+  },
+  {
+   "id": "us/west-virginia",
+   "bytes": 99297211,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.8,
+   "matched": 18
+  },
+  {
+   "id": "us/wisconsin",
+   "bytes": 295406727,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 8.5,
+   "matched": 431
+  },
+  {
+   "id": "us/wyoming",
+   "bytes": 95481412,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.6,
+   "matched": 7
+  },
+  {
+   "id": "ustecky",
+   "bytes": 112309593,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.9,
+   "matched": 35
+  },
+  {
+   "id": "utrecht",
+   "bytes": 99477805,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.8,
+   "matched": 1188
+  },
+  {
+   "id": "uzbekistan",
+   "bytes": 125608812,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.5,
+   "matched": 16
+  },
+  {
+   "id": "valencia",
+   "bytes": 141280309,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.9,
+   "matched": 207
+  },
+  {
+   "id": "vanuatu",
+   "bytes": 7903839,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.3,
+   "matched": 115
+  },
+  {
+   "id": "venezuela",
+   "bytes": 128013224,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.8,
+   "matched": 180
+  },
+  {
+   "id": "vestlandet",
+   "bytes": 257837838,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 7.1,
+   "matched": 8510
+  },
+  {
+   "id": "victoria",
+   "bytes": 243788268,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 7.0,
+   "matched": 691
+  },
+  {
+   "id": "vietnam",
+   "bytes": 332433509,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 8.7,
+   "matched": 192
+  },
+  {
+   "id": "volga-fed-district",
+   "bytes": 777825141,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 20.7,
+   "matched": 368
+  },
+  {
+   "id": "vysocina",
+   "bytes": 73563466,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.9,
+   "matched": 3
+  },
+  {
+   "id": "wales",
+   "bytes": 150801296,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.1,
+   "matched": 463
+  },
+  {
+   "id": "wallis-et-futuna",
+   "bytes": 619730,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.0,
+   "matched": 16
+  },
+  {
+   "id": "warminsko-mazurskie",
+   "bytes": 85642170,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.6,
+   "matched": 786
+  },
+  {
+   "id": "warwickshire",
+   "bytes": 24432905,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.8,
+   "matched": 24
+  },
+  {
+   "id": "west-midlands",
+   "bytes": 59798567,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.0,
+   "matched": 18
+  },
+  {
+   "id": "west-sussex",
+   "bytes": 49966366,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.5,
+   "matched": 309
+  },
+  {
+   "id": "west-yorkshire",
+   "bytes": 54465393,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.6,
+   "matched": 23
+  },
+  {
+   "id": "western-australia",
+   "bytes": 115863139,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.2,
+   "matched": 187
+  },
+  {
+   "id": "western-zone",
+   "bytes": 222108260,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.0,
+   "matched": 48
+  },
+  {
+   "id": "wielkopolskie",
+   "bytes": 159669588,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 4.6,
+   "matched": 94
+  },
+  {
+   "id": "wiltshire",
+   "bytes": 34659979,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.0,
+   "matched": 6
+  },
+  {
+   "id": "worcestershire",
+   "bytes": 20369410,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 0.7,
+   "matched": 18
+  },
+  {
+   "id": "xinjiang",
+   "bytes": 49072042,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.4,
+   "matched": 9
+  },
+  {
+   "id": "yemen",
+   "bytes": 43511641,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.3,
+   "matched": 72
+  },
+  {
+   "id": "yukon",
+   "bytes": 70994368,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.7,
+   "matched": 2
+  },
+  {
+   "id": "yunnan",
+   "bytes": 94333152,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.5,
+   "matched": 62
+  },
+  {
+   "id": "zachodniopomorskie",
+   "bytes": 97979882,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 3.0,
+   "matched": 1004
+  },
+  {
+   "id": "zambia",
+   "bytes": 252209709,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 7.6,
+   "matched": 5
+  },
+  {
+   "id": "zeeland",
+   "bytes": 44264960,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.5,
+   "matched": 2906
+  },
+  {
+   "id": "zhejiang",
+   "bytes": 91269777,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 2.5,
+   "matched": 1058
+  },
+  {
+   "id": "zimbabwe",
+   "bytes": 180985464,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 5.6,
+   "matched": 5
+  },
+  {
+   "id": "zlinsky",
+   "bytes": 53028143,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 1.4,
+   "matched": 9
+  },
+  {
+   "id": "zuid-holland",
+   "bytes": 212529290,
+   "timestamp": "2026-11-08T21:21:00Z",
+   "filter_seconds": 6.4,
+   "matched": 2923
+  }
+ ],
+ "region_ids": [
+  "act",
+  "afghanistan",
+  "albania",
+  "alberta",
+  "algeria",
+  "alps",
+  "alsace",
+  "american-oceania",
+  "andalucia",
+  "andorra",
+  "angola",
+  "anhui",
+  "antarctica",
+  "aquitaine",
+  "aragon",
+  "argentina",
+  "armenia",
+  "arnsberg-regbez",
+  "ashmore-cartier",
+  "asturias",
+  "austria",
+  "auvergne",
+  "azerbaijan",
+  "azores",
+  "bahamas",
+  "bangladesh",
+  "basse-normandie",
+  "bedfordshire",
+  "beijing",
+  "belarus",
+  "belgium",
+  "belize",
+  "benin",
+  "berkshire",
+  "berlin",
+  "bermuda",
+  "bhutan",
+  "bolivia",
+  "bosnia-herzegovina",
+  "botswana",
+  "bourgogne",
+  "brandenburg",
+  "bremen",
+  "bretagne",
+  "bristol",
+  "britain-and-ireland",
+  "buckinghamshire",
+  "bulgaria",
+  "burkina-faso",
+  "burundi",
+  "cambodia",
+  "cambridgeshire",
+  "cameroon",
+  "canary-islands",
+  "cantabria",
+  "cape-verde",
+  "castilla-la-mancha",
+  "castilla-y-leon",
+  "cataluna",
+  "central-african-republic",
+  "central-america",
+  "central-fed-district",
+  "central-zone",
+  "centre",
+  "centro",
+  "centro-oeste",
+  "ceuta",
+  "chad",
+  "champagne-ardenne",
+  "cheshire",
+  "chile",
+  "chongqing",
+  "christmas-island",
+  "chubu",
+  "chugoku",
+  "cocos-islands",
+  "colombia",
+  "comores",
+  "congo-brazzaville",
+  "congo-democratic-republic",
+  "cook-islands",
+  "coral-sea-islands",
+  "cornwall",
+  "corse",
+  "costa-rica",
+  "crimean-fed-district",
+  "croatia",
+  "cuba",
+  "cumbria",
+  "cyprus",
+  "dach",
+  "denmark",
+  "derbyshire",
+  "detmold-regbez",
+  "devon",
+  "djibouti",
+  "dolnoslaskie",
+  "dorset",
+  "drenthe",
+  "duesseldorf-regbez",
+  "durham",
+  "east-sussex",
+  "east-timor",
+  "east-yorkshire-with-hull",
+  "eastern-zone",
+  "ecuador",
+  "egypt",
+  "el-salvador",
+  "equatorial-guinea",
+  "eritrea",
+  "essex",
+  "estonia",
+  "ethiopia",
+  "extremadura",
+  "falklands",
+  "far-eastern-fed-district",
+  "faroe-islands",
+  "fiji",
+  "finland",
+  "flevoland",
+  "franche-comte",
+  "freiburg-regbez",
+  "friesland",
+  "fujian",
+  "gabon",
+  "galicia",
+  "gansu",
+  "gcc-states",
+  "gelderland",
+  "georgia",
+  "ghana",
+  "gloucestershire",
+  "greater-london",
+  "greater-manchester",
+  "greece",
+  "greenland",
+  "groningen",
+  "guadeloupe",
+  "guangdong",
+  "guangxi",
+  "guatemala",
+  "guernsey-jersey",
+  "guinea",
+  "guinea-bissau",
+  "guizhou",
+  "guyana",
+  "guyane",
+  "hainan",
+  "haiti-and-domrep",
+  "hamburg",
+  "hampshire",
+  "haute-normandie",
+  "heard-mcdonald",
+  "hebei",
+  "heilongjiang",
+  "henan",
+  "herefordshire",
+  "hertfordshire",
+  "hessen",
+  "hokkaido",
+  "honduras",
+  "hong-kong",
+  "hubei",
+  "hunan",
+  "hungary",
+  "iceland",
+  "ile-de-clipperton",
+  "ile-de-france",
+  "inner-mongolia",
+  "interior-admreg",
+  "iran",
+  "iraq",
+  "ireland-and-northern-ireland",
+  "island-admreg",
+  "islas-baleares",
+  "isle-of-man",
+  "isle-of-wight",
+  "isole",
+  "israel-and-palestine",
+  "ivory-coast",
+  "jamaica",
+  "java",
+  "jiangsu",
+  "jiangxi",
+  "jihocesky",
+  "jihomoravsky",
+  "jilin",
+  "jordan",
+  "kalimantan",
+  "kaliningrad",
+  "kansai",
+  "kanto",
+  "karlovarsky",
+  "karlsruhe-regbez",
+  "kazakhstan",
+  "kent",
+  "kenya",
+  "kiribati",
+  "kitikmeot",
+  "kivalliq",
+  "koeln-regbez",
+  "kootenay-admreg",
+  "kosovo",
+  "kralovehradecky",
+  "kujawsko-pomorskie",
+  "kyrgyzstan",
+  "kyushu",
+  "la-rioja",
+  "lancashire",
+  "languedoc-roussillon",
+  "laos",
+  "latvia",
+  "lebanon",
+  "leicestershire",
+  "lesotho",
+  "liaoning",
+  "liberecky",
+  "liberia",
+  "libya",
+  "liechtenstein",
+  "limburg",
+  "limousin",
+  "lincolnshire",
+  "lithuania",
+  "lodzkie",
+  "lorraine",
+  "lubelskie",
+  "lubuskie",
+  "luxembourg",
+  "macau",
+  "macedonia",
+  "madagascar",
+  "madrid",
+  "malawi",
+  "malaysia-singapore-brunei",
+  "maldives",
+  "mali",
+  "malopolskie",
+  "malta",
+  "maluku",
+  "manitoba",
+  "marshall-islands",
+  "martinique",
+  "mauritania",
+  "mauritius",
+  "mayotte",
+  "mazowieckie",
+  "mecklenburg-vorpommern",
+  "melilla",
+  "merseyside",
+  "mexico",
+  "micronesia",
+  "midi-pyrenees",
+  "mittelfranken",
+  "moldova",
+  "monaco",
+  "mongolia",
+  "montenegro",
+  "moravskoslezky",
+  "morocco",
+  "mozambique",
+  "muenster-regbez",
+  "murcia",
+  "myanmar",
+  "namibia",
+  "nauru",
+  "navarra",
+  "nepal",
+  "new-brunswick",
+  "new-caledonia",
+  "new-south-wales",
+  "new-zealand",
+  "newfoundland-and-labrador",
+  "nicaragua",
+  "niederbayern",
+  "niedersachsen",
+  "niger",
+  "nigeria",
+  "ningxia",
+  "niue",
+  "noord-brabant",
+  "noord-holland",
+  "norcal",
+  "nord-est",
+  "nord-norge",
+  "nord-ovest",
+  "nord-pas-de-calais",
+  "nordeste",
+  "norfolk",
+  "norfolk-island",
+  "norte",
+  "north-admreg",
+  "north-caucasus-fed-district",
+  "north-eastern-zone",
+  "north-korea",
+  "north-yorkshire",
+  "northamptonshire",
+  "northern-territory",
+  "northern-zone",
+  "northumberland",
+  "northwest-territories",
+  "northwestern-fed-district",
+  "nottinghamshire",
+  "nova-scotia",
+  "nusa-tenggara",
+  "oberbayern",
+  "oberfranken",
+  "oberpfalz",
+  "okanagan-admreg",
+  "olomoucky",
+  "ontario",
+  "opolskie",
+  "ostlandet",
+  "overijssel",
+  "oxfordshire",
+  "pais-vasco",
+  "pakistan",
+  "palau",
+  "panama",
+  "papua",
+  "papua-new-guinea",
+  "paraguay",
+  "pardubicky",
+  "pays-de-la-loire",
+  "peru",
+  "philippines",
+  "picardie",
+  "pitcairn-islands",
+  "plzensky",
+  "podkarpackie",
+  "podlaskie",
+  "poitou-charentes",
+  "polynesie-francaise",
+  "pomorskie",
+  "portugal",
+  "praha",
+  "prince-edward-island",
+  "provence-alpes-cote-d-azur",
+  "qikiqtaaluk",
+  "qinghai",
+  "quebec",
+  "queensland",
+  "reunion",
+  "rheinland-pfalz",
+  "rhone-alpes",
+  "romania",
+  "rutland",
+  "rwanda",
+  "saarland",
+  "sachsen",
+  "sachsen-anhalt",
+  "saint-helena-ascension-and-tristan-da-cunha",
+  "samoa",
+  "sao-tome-and-principe",
+  "saskatchewan",
+  "schleswig-holstein",
+  "schwaben",
+  "scotland",
+  "sea",
+  "senegal-and-gambia",
+  "serbia",
+  "seychelles",
+  "shaanxi",
+  "shandong",
+  "shanghai",
+  "shanxi",
+  "shikoku",
+  "shropshire",
+  "siberian-fed-district",
+  "sichuan",
+  "sierra-leone",
+  "slaskie",
+  "slovakia",
+  "slovenia",
+  "socal",
+  "solomon-islands",
+  "somalia",
+  "somerset",
+  "sorlandet",
+  "south-africa",
+  "south-australia",
+  "south-fed-district",
+  "south-korea",
+  "south-sudan",
+  "south-yorkshire",
+  "southcoast-admreg",
+  "southern-zone",
+  "sri-lanka",
+  "staffordshire",
+  "stredocesky",
+  "stuttgart-regbez",
+  "sud",
+  "sudan",
+  "sudeste",
+  "suffolk",
+  "sul",
+  "sulawesi",
+  "sumatra",
+  "suriname",
+  "surrey",
+  "svalbard-janmayen",
+  "swaziland",
+  "sweden",
+  "swietokrzyskie",
+  "switzerland",
+  "syria",
+  "taiwan",
+  "tajikistan",
+  "tanzania",
+  "tasmania",
+  "thailand",
+  "thueringen",
+  "tianjin",
+  "tibet",
+  "togo",
+  "tohoku",
+  "tokelau",
+  "tonga",
+  "trondelag",
+  "tuebingen-regbez",
+  "tunisia",
+  "turkey",
+  "turkmenistan",
+  "tuvalu",
+  "tyne-and-wear",
+  "uganda",
+  "ukraine",
+  "unterfranken",
+  "ural-fed-district",
+  "uruguay",
+  "us-midwest",
+  "us-northeast",
+  "us-pacific",
+  "us-south",
+  "us-west",
+  "us/alabama",
+  "us/alaska",
+  "us/arizona",
+  "us/arkansas",
+  "us/colorado",
+  "us/connecticut",
+  "us/delaware",
+  "us/district-of-columbia",
+  "us/florida",
+  "us/georgia",
+  "us/hawaii",
+  "us/idaho",
+  "us/illinois",
+  "us/indiana",
+  "us/iowa",
+  "us/kansas",
+  "us/kentucky",
+  "us/louisiana",
+  "us/maine",
+  "us/maryland",
+  "us/massachusetts",
+  "us/michigan",
+  "us/minnesota",
+  "us/mississippi",
+  "us/missouri",
+  "us/montana",
+  "us/nebraska",
+  "us/nevada",
+  "us/new-hampshire",
+  "us/new-jersey",
+  "us/new-mexico",
+  "us/new-york",
+  "us/north-carolina",
+  "us/north-dakota",
+  "us/ohio",
+  "us/oklahoma",
+  "us/oregon",
+  "us/pennsylvania",
+  "us/puerto-rico",
+  "us/rhode-island",
+  "us/south-carolina",
+  "us/south-dakota",
+  "us/tennessee",
+  "us/texas",
+  "us/us-virgin-islands",
+  "us/utah",
+  "us/vermont",
+  "us/virginia",
+  "us/washington",
+  "us/west-virginia",
+  "us/wisconsin",
+  "us/wyoming",
+  "ustecky",
+  "utrecht",
+  "uzbekistan",
+  "valencia",
+  "vanuatu",
+  "venezuela",
+  "vestlandet",
+  "victoria",
+  "vietnam",
+  "volga-fed-district",
+  "vysocina",
+  "wales",
+  "wallis-et-futuna",
+  "warminsko-mazurskie",
+  "warwickshire",
+  "west-midlands",
+  "west-sussex",
+  "west-yorkshire",
+  "western-australia",
+  "western-zone",
+  "wielkopolskie",
+  "wiltshire",
+  "worcestershire",
+  "xinjiang",
+  "yemen",
+  "yukon",
+  "yunnan",
+  "zachodniopomorskie",
+  "zambia",
+  "zeeland",
+  "zhejiang",
+  "zimbabwe",
+  "zlinsky",
+  "zuid-holland"
+ ],
+ "timings": {
+  "filter_seconds": 3021.6,
+  "collect_seconds": 23.9
+ },
+ "min_free_disk_bytes": 85287665664,
+ "regions_total": 521,
+ "no_position": 0,
+ "timestamp_osm_base": "2026-11-08T21:21:00Z",
+ "timestamp_newest": "2026-11-08T21:21:00Z",
+ "kinds": {
+  "node": 211271,
+  "way": 19440,
+  "relation": 1697
+ },
+ "output": {
+  "elements": 232408,
+  "antimeridian_skipped": 0,
+  "cells": 4716,
+  "bytes_total": 87458667,
+  "bytes_max": 1973661,
+  "gzip_bytes_total": 10009299,
+  "gzip_bytes_max": 129166,
+  "elements_max": 4508,
+  "elements_median": 5.0,
+  "index_bytes": 190316,
+  "index_gzip_bytes": 31638
+ },
+ "guard": {
+  "status": "accepted",
+  "previous_elements": null,
+  "problems": []
+ },
+ "site_files": 4720,
+ "runtime_seconds": 18604.3,
+ "client": {
+  "requests": 522,
+  "bytes": 111486587602,
+  "download_seconds": 15551.300729074006,
+  "pause_seconds": 2605.0,
+  "throttle_events": 0,
+  "throttle_wait_seconds": 0.0,
+  "error_retries": 0,
+  "error_wait_seconds": 0.0,
+  "largest_bytes": 6273596613
+ }
+}

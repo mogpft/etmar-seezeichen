@@ -1,0 +1,11 @@
+/v1/index.json
+  Content-Type: application/json
+  Cache-Control: public, max-age=3600
+
+/v1/N*
+  Content-Type: application/json
+  Cache-Control: public, max-age=21600
+
+/v1/S*
+  Content-Type: application/json
+  Cache-Control: public, max-age=21600
