@@ -72,6 +72,22 @@ jobs:
             echo "No data branch yet."
           fi
 
+      # A wrong token has to fail here, not after five hours of building.
+      - name: Check Cloudflare access
+        if: env.PUBLISH == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          status=$(curl -sS -o /dev/null -w '%{http_code}' \
+            -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
+            "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/pages/projects/${CF_PROJECT}")
+          case "$status" in
+            200) echo "Project exists." ;;
+            404) npx --yes "wrangler@${WRANGLER_VERSION}" pages project create "$CF_PROJECT" --production-branch main ;;
+            *) echo "::error::Cloudflare answered $status when asked for the project"; exit 1 ;;
+          esac
+
       - name: Build
         env:
           ACCEPT_BASELINE: ${{ inputs.accept_baseline }}
@@ -121,16 +137,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           python -m seamarks.site out/site
-          wrangler() { npx --yes "wrangler@${WRANGLER_VERSION}" "$@"; }
-          status=$(curl -sS -o /dev/null -w '%{http_code}' \
-            -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
-            "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/pages/projects/${CF_PROJECT}")
-          case "$status" in
-            200) echo "Project exists." ;;
-            404) wrangler pages project create "$CF_PROJECT" --production-branch main ;;
-            *) echo "::error::Cloudflare answered $status when asked for the project"; exit 1 ;;
-          esac
-          wrangler pages deploy out/site --project-name "$CF_PROJECT" --branch main \
+          npx --yes "wrangler@${WRANGLER_VERSION}" pages deploy out/site --project-name "$CF_PROJECT" --branch main \
             --commit-hash "$GITHUB_SHA" --commit-message "Weekly seamark data" --commit-dirty=true
 
       # One commit, force-pushed: the branch never accumulates history.
