@@ -26,6 +26,11 @@ USER_AGENT = "etmar-seezeichen/1 (weekly seamark build; https://github.com/mogpf
 #   great-britain, south-africa-and-lesotho: nothing their neighbours lack.
 EXCLUDED_REGIONS = {"us", "great-britain", "south-africa-and-lesotho"}
 
+# Parents taken as well as their children, because part of their land is in no
+# child. central-america: the Lesser Antilles, the British Virgin Islands,
+# Cayman, Turks and Caicos and the ABC islands have no extract of their own.
+KEPT_PARENTS = {"central-america"}
+
 
 class DownloadFailed(RuntimeError):
     pass
@@ -46,7 +51,7 @@ def parent_ids(index: dict) -> Set[str]:
 
 
 def leaf_regions(index: dict) -> List[Region]:
-    parents = parent_ids(index)
+    parents = parent_ids(index) - KEPT_PARENTS
     leaves = []
     for feature in index["features"]:
         properties = feature["properties"]

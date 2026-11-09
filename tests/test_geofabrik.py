@@ -21,6 +21,10 @@ class Regions(unittest.TestCase):
                               feature("great-britain", "europe"), feature("antarctica")]}
         self.assertEqual([r.id for r in leaf_regions(index)], ["antarctica", "bayern", "dach", "malta"])
 
+    def test_central_america_stays_because_its_islands_have_no_extract(self):
+        index = {"features": [feature("central-america"), feature("cuba", "central-america")]}
+        self.assertEqual([r.id for r in leaf_regions(index)], ["central-america", "cuba"])
+
 
 class RetryAfter(unittest.TestCase):
     def test_seconds(self):

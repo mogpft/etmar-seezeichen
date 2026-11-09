@@ -82,6 +82,13 @@ beyond its parts. Other aggregates such as `dach` or `britain-and-ireland` stay,
 because they reach further out to sea than their parts do. Objects whose
 bounding box spans the 180° meridian are counted in the report and left out.
 
+One parent is taken as well as its children: `central-america`, because the
+Lesser Antilles, the British Virgin Islands, Cayman, Turks and Caicos and the
+ABC islands have no extract of their own. Checked against Natural Earth's land
+polygons, what is still in no region is remote or tiny: Kerguelen, Crozet,
+South Georgia, the South Sandwich Islands, Chagos, Bouvet, Saint-Pierre et
+Miquelon and Ventotene. Their parents are too large for what they would add.
+
 ### Being a good guest at Geofabrik
 
 One download at a time, five seconds between downloads, a descriptive
